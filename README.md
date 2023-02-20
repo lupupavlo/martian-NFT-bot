@@ -1,24 +1,9 @@
-# Martian NFT bot
-This script allows you to mint testnet martian NFTs 
+The Martian NFT bot is a script designed to allow users to mint testnet Martian NFTs. Before running the bot, users need to obtain testnet APT coins from the faucet provided by aptoslabs.com.
 
-## Get testnet coins
-To run this bot you need to have testnet APT coins
+To set up the bot, users should download the ZIP file and extract it to a folder on their computer. They should then install Node.js, which can be downloaded from the official website (nodejs.org/en/) using the LTS version.
 
-Faucet: https://aptoslabs.com/testnet-faucet
+Next, users should configure their private key and other settings in the config.js file included with the bot. Once the settings are configured, users should open the folder containing the bot in the command prompt and run the command "cd <path to folder with script>".
 
-## Setup bot
-1) Download ZIP and extract it to a folder
-2) Install node.js: `https://nodejs.org/en/` (LTS)
-3) Setup your private key and other settings in `config.js`
-4) Open folder with the bot in `cmd`
-```bash
-cd <path to folder with script>
-```
-5) Install dependencies
-```bash
-npm install
-```
-6) Start
-```bash
-node index
-```
+After navigating to the folder, users should run the command "npm install" to install the necessary dependencies. Once the dependencies are installed, users can start the bot by running the command "node index".
+
+In summary, to mint testnet Martian NFTs using the Martian NFT bot, users need to obtain testnet APT coins, set up their private key and other settings in the config.js file, install Node.js and the bot's dependencies, and then run the bot using the "node index" command
